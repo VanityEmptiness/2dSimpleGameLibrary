@@ -18,3 +18,7 @@ In order to make everything works you need to go in project solution property an
 - Go to **General/C++ Standard** and set to c++20
 - Go to **Linker/General/AdditionalLibraryDirectories** and add the following property **$(ProjectDir)SDLGameLib\Vendors\Binaries**
 - Go to **Linker/Input/AdditionalLibraries** and add the following properties **SDL2.lib;SDL2main.lib;SDL2_image.lib;**
+
+### How It Works
+Once you downloaded it and setup, you should have something like this.
+![immagine](https://user-images.githubusercontent.com/85369525/207132906-8f2d8c28-3cea-42fe-805b-11840979baeb.png)
