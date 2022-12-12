@@ -11,7 +11,7 @@ A Simple 2d Game Library with some prebuilt systems to help you make simple 2d g
 - Collider System (with pyshics).
 - More...
 
-###Setup 
+### Setup 
 
 In order to make everything works you need to go in project solution property and add this settings.
 - Go to **General/C++ Standard** and set to c++20
