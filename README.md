@@ -24,6 +24,11 @@ In order to make everything works you need to go in project solution property an
 
 ![immagine](https://user-images.githubusercontent.com/85369525/207132906-8f2d8c28-3cea-42fe-805b-11840979baeb.png)
 
+- This is not a game engine, it is a simple game library with some prebuilt game systems made by me to help the user setting up the game
+ you have also the source code in your project that can be modified at anytime. 
+- Where can i start modifying the game and how it works? You have on the top of everything called game.cpp where you have the 2 main functions, OnLoad and OnUpdate, the first is called the first time when the game load the second one is called at every tick of the main game loop (render loop is executed on a different thread, you don't need to worry about it).
+- The game abstraction system works like this you have a scene_manager object that helps you switching between scenes. Scenes contains scene objects (we can called it the entities of our game) a scene object can in fact have a texture ,a position and a velocity on the map. A Scene can also contains multiple cameras objects, but there is only on camera that is the one used for the rendering and it's called current_camera, you need to use the SwitchCamera method to change the Render with the camera you want. You can also bind a Camera to a SceneObject so when the object move the camera also does. 
+
 - Now if you open game.cpp you can start editing your game, i'll leave a little example here.
 
 ```c++
