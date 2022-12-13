@@ -117,3 +117,7 @@ void Game::OnUpdate()
 	
 }
 ```
+
+This is how the example looks like
+
+![immagine](https://user-images.githubusercontent.com/85369525/207296935-e79c8936-5563-4471-a9b3-81e000d5b931.png)
