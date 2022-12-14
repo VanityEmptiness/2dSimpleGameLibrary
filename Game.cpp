@@ -3,13 +3,13 @@
 //This function gets called when the game loads
 void Game::OnLoad()
 {
-	//Everything here it's just for testing/examples purpose
+	
 	
 }
 
 //This function gets called every game tick
 void Game::OnUpdate()
 {
-	//Everything here it's just for testing/examples purpose
+	
 
 }
